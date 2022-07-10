@@ -9,7 +9,7 @@ function menuToggle() {
    
 }
 
-// Função do Contato
+// Função do Contato do Butão
 const url ="https://api.whatsapp.com/send?phone=5581979144289"
 const btn = document.querySelector("#bnt")
 
@@ -20,7 +20,7 @@ function contac(url){
 btn.addEventListener('click', () =>{
     contac(url)
 })
-
+//
 
 const URL = "https://portifolio-wdenberg.vercel.app/";
 const butt = document.querySelector("#bgg")
@@ -48,3 +48,7 @@ $(document).ready(function(){
     });
   
 });
+
+
+  
+ 
